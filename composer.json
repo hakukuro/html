@@ -11,7 +11,6 @@
         "sort-packages": true
     },
     "require": {
-        "coingate/magento2-plugin": "^1.2",
         "magento/product-community-edition": "2.3.4",
         "mageplaza/magento-2-social-login": "^2.8"
     },
