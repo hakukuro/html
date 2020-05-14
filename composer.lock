@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4bcc495e027b8ab12a067c6fbd9cf597",
+    "content-hash": "06cfcccc83d0bb58e08ba5f127c1cd0d",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -13774,6 +13774,53 @@
                 "yui"
             ],
             "time": "2018-01-15T15:26:51+00:00"
+        },
+        {
+            "name": "tun2u/m2-autorelated",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Tun2U/M2-Module-AutoRelated.git",
+                "reference": "8a116f86dbae752c0eacb2a5b1a1a7cb3ee4cc67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Tun2U/M2-Module-AutoRelated/zipball/8a116f86dbae752c0eacb2a5b1a1a7cb3ee4cc67",
+                "reference": "8a116f86dbae752c0eacb2a5b1a1a7cb3ee4cc67",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Tun2U\\AutoRelated\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tun2U S.r.l.",
+                    "email": "info@tun2u.it",
+                    "homepage": "https://www.tun2u.com"
+                }
+            ],
+            "description": "Auto generate related products for Magento 2",
+            "homepage": "https://github.com/Tun2U/M2-AutoRelated",
+            "keywords": [
+                "autorelated",
+                "magento2",
+                "products",
+                "related"
+            ],
+            "time": "2019-10-29T11:51:32+00:00"
         },
         {
             "name": "vertex/module-address-validation",

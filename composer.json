@@ -12,7 +12,9 @@
     },
     "require": {
         "magento/product-community-edition": "2.3.4",
-        "mageplaza/magento-2-social-login": "^2.8"
+        "mageplaza/magento-2-social-login": "^2.8",
+        "mageplaza/module-core": "^1.4",
+        "tun2u/m2-autorelated": "^1.0"
     },
     "require-dev": {
         "allure-framework/allure-phpunit": "~1.2.0",
